@@ -1,0 +1,13 @@
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\bin\Debug\net6.0\DAMSecurityLib.deps.json
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\bin\Debug\net6.0\DAMSecurityLib.dll
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\bin\Debug\net6.0\DAMSecurityLib.pdb
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\obj\Debug\net6.0\DAMSecurityLib.csproj.AssemblyReference.cache
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\obj\Debug\net6.0\DAMSecurityLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\obj\Debug\net6.0\DAMSecurityLib.AssemblyInfoInputs.cache
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\obj\Debug\net6.0\DAMSecurityLib.AssemblyInfo.cs
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\obj\Debug\net6.0\DAMSecurityLib.csproj.CoreCompileInputs.cache
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\obj\Debug\net6.0\DAMSecurityLib.sourcelink.json
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\obj\Debug\net6.0\DAMSecurityLib.dll
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\obj\Debug\net6.0\refint\DAMSecurityLib.dll
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\obj\Debug\net6.0\DAMSecurityLib.pdb
+C:\Users\yosse\source\repos\DAMSecurity\DAMSecurityLib\obj\Debug\net6.0\ref\DAMSecurityLib.dll

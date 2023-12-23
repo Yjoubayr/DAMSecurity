@@ -1,0 +1,42 @@
+﻿<Window x:Class="DAMSecurityGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DAMSecurityGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="284" Width="628">
+    <Canvas>
+        <Rectangle Height="197" Canvas.Left="24" Stroke="Black" Canvas.Top="10" Width="278" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Label Content="PDF File" Canvas.Left="24" Canvas.Top="24"/>
+        <TextBox x:Name="txtPdfFile" Canvas.Left="81" TextWrapping="Wrap" Canvas.Top="28" Width="158" HorizontalAlignment="Left" VerticalAlignment="Center" IsEnabled="False"/>
+        <Button x:Name="btSelectPdf" Content="..." Canvas.Left="257" Canvas.Top="27" HorizontalAlignment="Left" VerticalAlignment="Top" Width="16" VerticalContentAlignment="Center" Click="btSelectPdf_Click"/>
+        <Label Content="Pfx File" Canvas.Left="24" Canvas.Top="59" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPfxFile" Canvas.Left="81" TextWrapping="Wrap" Canvas.Top="63" Width="158" IsEnabled="False" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="btSelectPfx" Content="..." Canvas.Left="257" Canvas.Top="62" Width="16" VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btSelectPfx_Click"/>
+        <CheckBox x:Name="chkShowSignature" Content="Show signature" Canvas.Left="32" Canvas.Top="185" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="btSign" Content="Sign PDF" Canvas.Left="242" Canvas.Top="179" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Height="24" Click="btSign_Click"/>
+        <Label Content="Out File" Canvas.Left="24" Canvas.Top="122" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtOutFile" Canvas.Left="81" TextWrapping="Wrap" Canvas.Top="126" Width="158" IsEnabled="False" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="btSelectOutç" Content="..." Canvas.Left="257" Canvas.Top="125" Width="16" VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btSelectOut_Click"/>
+        <Label Content="Pfx password" Canvas.Left="24" Canvas.Top="89" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPfxPassword" Canvas.Left="109" TextWrapping="Wrap" Canvas.Top="93" Width="130" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Rectangle Height="197" Canvas.Left="338" Stroke="Black" Canvas.Top="10" Width="278" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Label Content="Pfx File" Canvas.Left="357" Canvas.Top="28" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtPfxFileCert" Canvas.Left="414" TextWrapping="Wrap" Canvas.Top="32" Width="158" IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button x:Name="btSelectPfxCert" Content="..." Canvas.Left="590" Canvas.Top="31" Width="16" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btSelectPfxCert_Click"/>
+        <Label Content="Pfx password" Canvas.Left="357" Canvas.Top="58" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtPfxPasswordCert" Canvas.Left="442" TextWrapping="Wrap" Canvas.Top="62" Width="130" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label Content="Name" Canvas.Left="357" Canvas.Top="85" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCertName" Canvas.Left="442" TextWrapping="Wrap" Canvas.Top="89" Width="130" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Yossef"/>
+        <Label Content="Organization" Canvas.Left="357" Canvas.Top="114" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCertOrganization" Canvas.Left="442" TextWrapping="Wrap" Canvas.Top="118" Width="130" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Bosc de la Coma" TextChanged="txtCertOrganization_TextChanged"/>
+        <Label Content="Locality" Canvas.Left="357" Canvas.Top="144" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCertLocality" Canvas.Left="442" TextWrapping="Wrap" Canvas.Top="148" Width="130" HorizontalAlignment="Center" VerticalAlignment="Top" Text="Olot"/>
+        <Button x:Name="btGenerateCert" Content="Generate Pfx" Canvas.Left="507" Canvas.Top="179" Width="102" Height="24" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btGenerateCert_Click"/>
+        <Label Content="Password Encrypt" Canvas.Left="24" Canvas.Top="157" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPasswordEncrypt" Canvas.Left="131" TextWrapping="Wrap" Canvas.Top="161" Width="96" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+
+    </Canvas>
+</Window>
